@@ -19,9 +19,10 @@ function setup() {
 }
 
 function draw() {
-  background(220); // Clear the background
+  background(204, 0, 102); // Clear the background
   
-  fill(100, 200, 255); // Set rectangle color
+  fill(255,153,51);
+   // Set rectangle color
   rect(450, rectY, 20, 50); // Draw the rectangle (x, y, width, height)
 
   rectY -= speed; // Move the rectangle upwards
