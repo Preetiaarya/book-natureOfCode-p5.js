@@ -12,7 +12,7 @@
 // }
 
 let rectY = 600; // Initial Y position of the rectangle
-let speed = 5; // Speed of the rectangle
+let speed = 3; // Speed of the rectangle
 
 function setup() {
   createCanvas(1000, 600); // Create a canvas of 400x400
@@ -20,6 +20,10 @@ function setup() {
 
 function draw() {
   background(204, 0, 102); // Clear the background
+  
+  textSize(32);
+  textAlign(CENTER,CENTER);
+  text("-: Moving rect upwards :-",500,60);
   
   fill(255,153,51);
    // Set rectangle color
